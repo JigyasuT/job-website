@@ -38,7 +38,7 @@ app.use(express.static(path.join(_dirname,"/frontend/dist")));
     res.sendFile(path.resolve(_dirname,"frontend","dist","index.html"));
  })
 
- const port = process.env.PORT || 3000; // ✅ Corrected
+ const port = process.env.PORT || 5000; // ✅ Corrected
 
 app.listen(port, () => {
   connectDB();
