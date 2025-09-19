@@ -20,7 +20,7 @@ app.use(cookieParser());
 app.use(express.urlencoded({ extended: true })); // ✅ For form data (URL encoded)
 // app.use(cookieParser());
 const corsOptions = {
-  origin: "https://job-website-1-c4h3.onrender.com/",
+  origin: "https://job-website-4mcv.onrender.com/",
   credentials: true,
 };
 app.use(cors(corsOptions));
